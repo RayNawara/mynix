@@ -1,0 +1,82 @@
+2024-04-29 15:01:13.826 EDT [11833] LOG:  starting PostgreSQL 15.6 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2024-04-29 15:01:13.826 EDT [11833] LOG:  listening on IPv6 address "::1", port 5432
+2024-04-29 15:01:13.826 EDT [11833] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-04-29 15:01:13.828 EDT [11833] FATAL:  could not create lock file "/run/postgresql/.s.PGSQL.5432.lock": No such file or directory
+2024-04-29 15:01:13.830 EDT [11833] LOG:  database system is shut down
+2024-04-29 15:15:55.906 EDT [16821] LOG:  starting PostgreSQL 15.6 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2024-04-29 15:15:55.906 EDT [16821] LOG:  listening on IPv6 address "::1", port 5432
+2024-04-29 15:15:55.906 EDT [16821] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-04-29 15:15:55.908 EDT [16821] FATAL:  could not create lock file "/run/postgresql/.s.PGSQL.5432.lock": No such file or directory
+2024-04-29 15:15:55.910 EDT [16821] LOG:  database system is shut down
+2024-04-29 15:21:18.320 EDT [18861] LOG:  starting PostgreSQL 15.6 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2024-04-29 15:21:18.321 EDT [18861] LOG:  listening on IPv6 address "::1", port 5432
+2024-04-29 15:21:18.321 EDT [18861] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-04-29 15:21:18.323 EDT [18861] FATAL:  could not create lock file "/run/postgresql/.s.PGSQL.5432.lock": Permission denied
+2024-04-29 15:21:18.325 EDT [18861] LOG:  database system is shut down
+2024-04-29 15:29:01.290 EDT [20957] LOG:  starting PostgreSQL 15.6 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2024-04-29 15:29:01.291 EDT [20957] LOG:  listening on IPv6 address "::1", port 5432
+2024-04-29 15:29:01.291 EDT [20957] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-04-29 15:29:01.293 EDT [20957] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-04-29 15:29:01.298 EDT [20960] LOG:  database system was shut down at 2024-04-29 15:01:13 EDT
+2024-04-29 15:29:01.304 EDT [20957] LOG:  database system is ready to accept connections
+2024-04-29 15:33:44.328 EDT [20957] LOG:  received fast shutdown request
+2024-04-29 15:33:44.335 EDT [20957] LOG:  aborting any active transactions
+2024-04-29 15:33:44.337 EDT [20957] LOG:  background worker "logical replication launcher" (PID 20963) exited with exit code 1
+2024-04-29 15:33:44.337 EDT [20958] LOG:  shutting down
+2024-04-29 15:33:44.339 EDT [20958] LOG:  checkpoint starting: shutdown immediate
+2024-04-29 15:33:44.363 EDT [20958] LOG:  checkpoint complete: wrote 47 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.009 s, sync=0.005 s, total=0.026 s; sync files=11, longest=0.003 s, average=0.001 s; distance=273 kB, estimate=273 kB
+2024-04-29 15:33:44.368 EDT [20957] LOG:  database system is shut down
+2024-04-29 15:40:03.164 EDT [23101] LOG:  starting PostgreSQL 15.6 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2024-04-29 15:40:03.164 EDT [23101] LOG:  listening on IPv6 address "::1", port 5432
+2024-04-29 15:40:03.164 EDT [23101] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-04-29 15:40:03.166 EDT [23101] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-04-29 15:40:03.172 EDT [23104] LOG:  database system was shut down at 2024-04-29 15:39:56 EDT
+2024-04-29 15:40:03.178 EDT [23101] LOG:  database system is ready to accept connections
+2024-04-29 15:45:03.271 EDT [23102] LOG:  checkpoint starting: time
+2024-04-29 15:45:03.298 EDT [23102] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.009 s, sync=0.002 s, total=0.028 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
+2024-04-29 15:46:17.556 EDT [23101] LOG:  received fast shutdown request
+2024-04-29 15:46:17.563 EDT [23101] LOG:  aborting any active transactions
+2024-04-29 15:46:17.565 EDT [23101] LOG:  background worker "logical replication launcher" (PID 23107) exited with exit code 1
+2024-04-29 15:46:17.565 EDT [23102] LOG:  shutting down
+2024-04-29 15:46:17.567 EDT [23102] LOG:  checkpoint starting: shutdown immediate
+2024-04-29 15:46:17.579 EDT [23102] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.014 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB
+2024-04-29 15:46:17.582 EDT [23101] LOG:  database system is shut down
+2024-04-29 15:57:33.079 EDT [25564] LOG:  starting PostgreSQL 15.6 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2024-04-29 15:57:33.080 EDT [25564] LOG:  listening on IPv6 address "::1", port 5432
+2024-04-29 15:57:33.080 EDT [25564] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-04-29 15:57:33.081 EDT [25564] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-04-29 15:57:33.087 EDT [25567] LOG:  database system was shut down at 2024-04-29 15:57:32 EDT
+2024-04-29 15:57:33.092 EDT [25564] LOG:  database system is ready to accept connections
+2024-04-29 16:01:53.065 EDT [25564] LOG:  received fast shutdown request
+2024-04-29 16:01:53.072 EDT [25564] LOG:  aborting any active transactions
+2024-04-29 16:01:53.074 EDT [25564] LOG:  background worker "logical replication launcher" (PID 25570) exited with exit code 1
+2024-04-29 16:01:53.075 EDT [25565] LOG:  shutting down
+2024-04-29 16:01:53.076 EDT [25565] LOG:  checkpoint starting: shutdown immediate
+2024-04-29 16:01:53.102 EDT [25565] LOG:  checkpoint complete: wrote 43 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.009 s, sync=0.006 s, total=0.028 s; sync files=11, longest=0.004 s, average=0.001 s; distance=252 kB, estimate=252 kB
+2024-04-29 16:01:53.105 EDT [25564] LOG:  database system is shut down
+2024-04-29 16:04:11.269 EDT [29790] LOG:  starting PostgreSQL 15.6 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2024-04-29 16:04:11.270 EDT [29790] LOG:  listening on IPv6 address "::1", port 5432
+2024-04-29 16:04:11.270 EDT [29790] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-04-29 16:04:11.271 EDT [29790] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-04-29 16:04:11.277 EDT [29793] LOG:  database system was shut down at 2024-04-29 16:01:53 EDT
+2024-04-29 16:04:11.283 EDT [29790] LOG:  database system is ready to accept connections
+2024-04-29 16:06:47.784 EDT [29790] LOG:  received fast shutdown request
+2024-04-29 16:06:47.791 EDT [29790] LOG:  aborting any active transactions
+2024-04-29 16:06:47.792 EDT [29790] LOG:  background worker "logical replication launcher" (PID 29796) exited with exit code 1
+2024-04-29 16:06:47.793 EDT [29791] LOG:  shutting down
+2024-04-29 16:06:47.795 EDT [29791] LOG:  checkpoint starting: shutdown immediate
+2024-04-29 16:06:47.832 EDT [29791] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.024 s, sync=0.003 s, total=0.039 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB
+2024-04-29 16:06:47.835 EDT [29790] LOG:  database system is shut down
+2024-04-29 16:06:54.845 EDT [31908] LOG:  starting PostgreSQL 15.6 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2024-04-29 16:06:54.846 EDT [31908] LOG:  listening on IPv6 address "::1", port 5432
+2024-04-29 16:06:54.846 EDT [31908] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-04-29 16:06:54.848 EDT [31908] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-04-29 16:06:54.853 EDT [31911] LOG:  database system was shut down at 2024-04-29 16:06:47 EDT
+2024-04-29 16:06:54.859 EDT [31908] LOG:  database system is ready to accept connections
+2024-04-29 16:09:26.367 EDT [31908] LOG:  received fast shutdown request
+2024-04-29 16:09:26.374 EDT [31908] LOG:  aborting any active transactions
+2024-04-29 16:09:26.375 EDT [31908] LOG:  background worker "logical replication launcher" (PID 31914) exited with exit code 1
+2024-04-29 16:09:26.375 EDT [31909] LOG:  shutting down
+2024-04-29 16:09:26.377 EDT [31909] LOG:  checkpoint starting: shutdown immediate
+2024-04-29 16:09:26.396 EDT [31909] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.002 s, total=0.021 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
+2024-04-29 16:09:26.400 EDT [31908] LOG:  database system is shut down

@@ -1,0 +1,1 @@
+/nix/store/x57rfwyv6cl87dsd5894rh69cyw1d6bq-postgresql-15.6/bin/postgres "-D" "/home/ray/my-rails-project/postgresql-flake/pgdata/data"
